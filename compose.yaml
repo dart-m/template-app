@@ -1,0 +1,14 @@
+services:
+  name-app:
+    build: .
+    container_name: name-app
+    restart: always
+    volumes:
+      - ./data:/name-app/data
+    ports:
+      - "5005:5005"
+    environment:
+      - OPENAI_API=
+      - ANTHROPIC_API=
+      - OPENROUTER_API=
+  
