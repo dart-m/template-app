@@ -17,7 +17,7 @@ CHUNK_LENGTH = 2300
 
 config = {}
 
-config["task"] = "corrector"
+config["task"] = ""
 config["provider"] = "anthropic"
 config["model"] = "claude-3-5-sonnet-20241022"
 config["temperature"] = 0.3
