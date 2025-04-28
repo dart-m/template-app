@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache
+
+.venv
+
+.vscode
+
+data/runs/run*
+data/system/app.log
+
+tests/files
